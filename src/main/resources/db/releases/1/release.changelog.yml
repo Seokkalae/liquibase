@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: classpath:/db/releases/1/task1/task.changelog.yml
+  - include:
+      file: classpath:/db/releases/1/task2/task.changelog.yml
