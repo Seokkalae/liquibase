@@ -1,5 +1,7 @@
 databaseChangeLog:
   - include:
-      file: classpath:/db/releases/1/task1/task.changelog.yml
+      file: task1/task.changelog.yml
+      relativeToChangelogFile: true
   - include:
-      file: classpath:/db/releases/1/task2/task.changelog.yml
+      file: task2/task.changelog.yml
+      relativeToChangelogFile: true
