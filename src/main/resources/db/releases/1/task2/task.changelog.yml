@@ -1,4 +1,11 @@
 databaseChangeLog:
-  - includeAll:
-      path: changes
-      relativeToChangelogFile: true
+  - changeSet:
+      id: task2
+      author: seokkalae
+      changes:
+        - sqlFile:
+            relativeToChangelogFile: true
+            path: changes/change1.sql
+        - sqlFile:
+            relativeToChangelogFile: true
+            path: changes/change2.sql

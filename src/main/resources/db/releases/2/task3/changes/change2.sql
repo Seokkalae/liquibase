@@ -1,5 +1,3 @@
---changeset seokkalae:task3_change2
-
 with inserted as (
     insert into test.task2_change1 (value)
         values (null)

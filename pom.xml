@@ -74,10 +74,11 @@
                 <artifactId>liquibase-maven-plugin</artifactId>
                 <version>4.28.0</version>
                 <configuration>
-                    <changeLogFile>src/main/resources/db/releases/1/release.changelog.yml</changeLogFile>
+                    <changeLogFile>src/main/resources/db/master.changelog.yml</changeLogFile>
                     <url>jdbc:postgresql://localhost:5432/postgres</url>
                     <username>test</username>
                     <password>test</password>
+                    <verbose>true</verbose>
                 </configuration>
             </plugin>
         </plugins>
